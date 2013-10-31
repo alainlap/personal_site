@@ -1,0 +1,145 @@
+body {
+	margin: 0; /*remove default margin*/
+ 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+ 	color: #222324;
+ 	background: #F2F2F2;
+}
+
+a {
+
+}
+
+a:hover {
+
+}
+
+h1 {
+	font-size: 2em;
+	margin-top: 0;
+	margin-bottom: 0.5em
+}
+
+h2 {
+	font-size: 1.5em;
+	margin-top: 0;
+	margin-bottom: 0.1em
+}
+
+h3 {
+
+}
+
+p {
+	text-align: justify;
+
+}
+
+#wrapper {
+
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: block;
+
+	background: white;
+}
+
+	#hero,
+	#subhero,
+	#footer,
+	.altlight,
+	.altdark {
+	display: block;
+	clear: both;
+	padding: 2em 10% 2em 10%;
+	margin: 0 15em 0 0;
+	width: 100%;
+	background: white;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+#hero {
+	background: #0969A2;
+	color: white;
+	padding: 4em 10% 4em 10%;
+}
+
+#hero h1 {
+	font-size: 3em;
+	line-height: 70px;
+	font-family: "Helvetica";
+	font-weight: bold;
+	text-align:center;
+}
+
+#hero h2 {
+	font-size: 1.5em;
+	line-height: 70px;
+	font-family: "Helvetica";
+	font-weight: bold;
+	text-align: center;
+}
+
+#subhero {
+	background: #3D9AD1;
+	color: white;
+	padding: 0 0 .5em 0;
+}
+
+.altlight {
+	background: white;
+}
+
+.altdark {
+	background: #F2F2F2;
+}
+
+#footer {
+	background: #3D9AD1;
+	color: #0969A2;
+	font-size: .8em;
+}
+
+#footer p {
+	margin:0;
+}
+
+.button {
+	margin: 1em;
+	padding:.5em .8em .5em .8em;
+	border-radius: .5em;
+	/*border: 1px #9FEE00 solid;*/
+	display:inline-block;
+	
+	background: #B9F73E;
+}
+
+.button:hover {
+	background: #9FEE00;
+}
+
+.nav {
+	float:right;
+	background: white;
+	font-size: 1.2em;
+	font-family: "Helvetica";
+	font-weight: bold;
+	margin: 2.5em .5em 2em 0;
+	padding:.5em;
+}
+
+.nav:hover {
+	color: #0969A2;
+}
+
+#last {
+	margin-right: 3em;
+}
+
+.line {
+	margin: 1em 0 1em 0;
+	background: white;
+	height: .3em;
+}
+
