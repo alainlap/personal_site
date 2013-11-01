@@ -153,9 +153,19 @@ p {
 	display:inline-block;
 	background: red;
 	padding: 1.5em .5em .5em .5em;
-	margin: 1em .5em 1em .5em;
+	margin: 1em 1em 1em 1em;
 	border-radius: 10px;
 	background: #3D9AD1;
+}
+
+.highlights p {
+	text-align: left;
+	font-size: .8em;
+}
+
+.highlights h1 {
+	font-size: .8em;
+	font-weight: 600;
 }
 
 .quote {
@@ -163,14 +173,15 @@ p {
 	float:right;
 	display:inline-block;
 	margin: 1em;
-	border-radius:5px;
+	border-radius:8px;
 	padding:0.5em 2em 0.5em 2em;
 }
 
 .quote p {
-	text-align: left;
+	text-align: center;
 	font-size: 2.5em;
 	font-weight: 300;
+	max-width: 400px;
 }
 
 
